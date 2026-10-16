@@ -66,16 +66,3 @@ data/frozen/feature_set_v3/
     ├── spearman_correlation_heatmap.png
     └── spearman_correlation_heatmap.pdf
 ```
-
-## Upload afterward
-
-Please upload:
-
-```text
-stage08_9_summary.json
-high_correlation_pairs.csv
-feature_pruning_decisions.csv
-feature_set_v3_export_summary.csv
-```
-
-We should inspect those four before freezing v3 and starting Stage 09 v2.
