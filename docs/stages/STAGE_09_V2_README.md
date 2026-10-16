@@ -103,24 +103,4 @@ positive_count = 73
 negative_count = 108
 ```
 
-## Upload after the final run
-
-Start with:
-
-```text
-reproducibility_report.json
-rf_summary_metrics.csv
-rf_best_hyperparameters.csv
-permutation_importance.csv
-```
-
-Then, if those pass, upload:
-
-```text
-rf_fold_metrics.csv
-rf_oof_predictions.csv
-rf_top5_hyperparameters_by_outer_fold.csv
-hyperparameter_stability.csv
-```
-
 Do not modify Benchmark v1.1 or Feature Set v3 after this run.
