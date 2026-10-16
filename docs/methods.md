@@ -8,7 +8,7 @@ Does energetic frustration convey predictive information about *E. coli* obligat
 
 The frozen corrected benchmark v1.1 contains **181 proteins** with a binary label: **73 obligate** and **108 non-obligate**. The updated labels reside in the frozen feature-set v3 file, not in the older fold-assignment CSV. The latter's label column predates the v1.1 correction and reflects only 64 positives. Scripts deliberately merge three fields from it: `current_uniprot_accession`, `homology_cv_fold`, and `homology_cluster_30`.
 
-Original cohort construction and subsequent label-correction work are preserved in `Scripts/04_*`, `Scripts/06*`, `Scripts/07_*`, and `Scripts/10B_*` and their stage notes. Review these for exact external source extraction and labeling rules.
+Selected cohort-preparation and label-correction code is retained in `Scripts/04_prepare_minami_cohorts.py`, `Scripts/06B_prepare_and_freeze_benchmark.py`, `Scripts/07_build_homology_and_fold_groups.py`, and the two `Scripts/10B_*` files. Selected historical notes provide derivation context; preliminary script revisions have been excluded from this curated release.
 
 ## Structural core: 15 predictors
 

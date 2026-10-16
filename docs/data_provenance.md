@@ -2,9 +2,9 @@
 
 ## Dataset construction
 
-The project harmonizes published GroEL/GroES-dependence classifications (including sources described in the original Stage 02–10 documentation) with UniProt accessions and structural descriptors extracted from protein structures. The codebase retains its original scripts for mapping identifiers, downloading sequences and structures, filtering labels, constructing homology groups, and auditing revised benchmark v1.1 labels.
+The project harmonizes published GroEL/GroES-dependence classifications (including sources described in the original Stage 02–10 documentation) with UniProt accessions and structural descriptors extracted from protein structures. The codebase retains selected scripts for mapping identifiers, downloading sequences and structures, preparing labels, constructing homology groups, and auditing revised benchmark v1.1 labels.
 
-Original source-table files, structure downloads, and generated benchmark tables have **not** been provided in this GitHub checkout. See the historical stage READMEs for the project's internal derivation chronology. Specific paper citations, versions, and source license verification should be completed against the original tables rather than inferred from filenames.
+Original source-table files, structure downloads, and generated benchmark tables have **not** been provided in this GitHub checkout. See the selected historical stage READMEs for relevant derivation context; the full local research history is not included in this curated release. Specific paper citations, versions, and source license verification should be completed against the original tables rather than inferred from filenames.
 
 ## Frozen benchmark v1.1
 

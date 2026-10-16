@@ -40,7 +40,7 @@ Evaluation
 
 Example
 -------
-python3 scripts/09_v2_final_random_forest.py \
+python3 Scripts/09_v2_final_random_forest_FIXED.py \
   --feature-dir data/frozen/feature_set_v3 \
   --fold-assignments data/grouping/stage07/fold_assignments_v1.0.csv \
   --output-dir results/stage09_v2 \

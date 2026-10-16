@@ -18,7 +18,7 @@ It:
 No manual CSV editing is required.
 
 Example:
-    python3 scripts/10B_build_benchmark_v1_1_from_minami_table1.py \
+    python3 Scripts/10B_build_benchmark_v1_1_from_minami_table1_v3.py \
       --benchmark data/frozen/benchmark_v1_0/benchmark_v1.0.csv \
       --feature-dir data/frozen/feature_set_v2 \
       --output-dir data/frozen/benchmark_v1_1

@@ -4,7 +4,7 @@
 
 COMPASS is a research pipeline studying whether global protein structural features and energetic frustration help predict *obligate dependence* on the bacterial GroEL/GroES chaperonin system. The project includes benchmark construction, leakage-controlled modeling, feature ablations, and model interpretation.
 
-> **Research status:** Source-code release for review (2026). The repository currently does **not** contain all frozen input tables or the full analysis outputs. Reported scores are from completed local experiments, **not independently reproduced from this GitHub checkout**. The repository is being prepared privately prior to any public release.
+> **Research status (2026):** Curated source-code release. The repository does **not** contain all frozen input tables or full analysis outputs. Reported scores are from completed local experiments and **have not been independently reproduced from this GitHub checkout**.
 
 ## Study at a glance
 
@@ -42,14 +42,14 @@ A separate five-fold held-out permutation-importance analysis ranked **minimum-c
 
 ## Repository guide
 
-- [`Scripts/`](Scripts/) — original research scripts, including benchmarking, modeling, frustration extraction, and audits. Historical revisions are preserved as named; the `*_FIXED.py` Stage 09 v2 implementation is the current shared model-building module.
+- [`Scripts/`](Scripts/) — **19 selected research scripts**: input construction and label audits, the current modeling implementation, frustration extraction, feature ablations and evaluation diagnostics. Poster graphics, preliminary models and superseded script versions are excluded. `09_v2_final_random_forest_FIXED.py` supplies shared model-building functions.
 - [`docs/methods.md`](docs/methods.md) — benchmark, features, CV, and scientific interpretation.
 - [`docs/reproducibility.md`](docs/reproducibility.md) — required local inputs, environment, and exact commands.
 - [`docs/data_provenance.md`](docs/data_provenance.md) — source-data and redistribution considerations.
-- [`docs/stages/`](docs/stages/) — contemporaneous development notes; some describe superseded stages.
-- [`requirements-analysis.txt`](requirements-analysis.txt) — analysis dependencies, with the original per-stage requirements under [`requirements/historical/`](requirements/historical/).
+- [`docs/stages/`](docs/stages/) — eight selected contemporaneous methodology and provenance notes, retained as historical records; some refer to earlier script names or benchmark versions.
+- [`requirements-analysis.txt`](requirements-analysis.txt) — principal analysis dependencies (not a tested, fully pinned environment); preprocessing and frustration extraction have additional tool-specific dependencies described in the scripts and reproducibility guide.
 - [`results/stage09_4F/all_feature_configurations_summary.csv`](results/stage09_4F/all_feature_configurations_summary.csv) — user-reported consolidated experimental metrics (rounded as originally displayed).
-- [`docs/publication_checklist.md`](docs/publication_checklist.md) — outstanding steps before claiming end-to-end reproducibility.
+- [`docs/publication_checklist.md`](docs/publication_checklist.md) — remaining source-data, environment, licensing and end-to-end reproducibility checks.
 
 ## Quick start
 

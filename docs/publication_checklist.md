@@ -1,8 +1,8 @@
 # Publication and completeness checklist
 
-## Completed in private source release
+## Completed in curated source release
 
-- [x] Preserve 36 Python research scripts and 25 historical stage documentation files.
+- [x] Retain 19 scripts necessary for the released pipeline, provenance, and diagnostics; remove poster-only, redundant, and superseded code. Retain eight relevant historical methodology notes.
 - [x] Verify Python syntax for packaged source scripts.
 - [x] Record all eight exploratory model summaries and the primary modeling parameters.
 - [x] Record the corrected label / stale fold-file label distinction.
@@ -21,4 +21,4 @@
 - [ ] Validate the extraction manifest and AWSEM/Frustratometer execution instructions.
 - [ ] Confirm source-code and third-party licenses; add LICENSE after approval.
 - [ ] Review authorship, acknowledgment and conflict-of-interest statements.
-- [ ] Make public only after completing the appropriate review.
+- [ ] If the repository is made public before data/validation is supplied, describe it explicitly as a **curated source-only release**, not an end-to-end reproducible or externally validated model.
