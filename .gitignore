@@ -1,0 +1,42 @@
+# OS and editors
+.DS_Store
+._*
+.vscode/
+.idea/
+
+# Python and virtual environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.env.*
+*.pem
+*.key
+
+# Unreviewed input datasets and structural intermediates
+data/
+MiscResources/
+figures/raw/
+*.pse
+*.pdb
+*.cif
+*.mmcif
+*.npz
+*.joblib
+*.pkl
+
+# Local computed outputs; explicitly tracked summary excepted
+results/**
+!results/stage09_4F/
+results/stage09_4F/**
+!results/stage09_4F/all_feature_configurations_summary.csv
+
+# Logs and secrets
+*.log
+*.tmp
+*.swp
+.DS_Store
