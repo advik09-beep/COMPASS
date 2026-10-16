@@ -1,6 +1,6 @@
 # COMPASS
 
-**Computational Modeling of Protein Chaperonin Dependence Using Structural Topology and Energetic Frustration**
+**A CHAPERONIN OBLIGATE-DEPENDENCE MODEL USING PROTEIN ARCHITECTURE, SEQUENCE AND STRUCTURE**
 
 COMPASS is a research pipeline studying whether global protein structural features and energetic frustration help predict *obligate dependence* on the bacterial GroEL/GroES chaperonin system. The project includes benchmark construction, leakage-controlled modeling, feature ablations, and model interpretation.
 
