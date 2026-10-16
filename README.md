@@ -49,7 +49,6 @@ A separate five-fold held-out permutation-importance analysis ranked **minimum-c
 - [`docs/stages/`](docs/stages/) — eight selected contemporaneous methodology and provenance notes, retained as historical records; some refer to earlier script names or benchmark versions.
 - [`requirements-analysis.txt`](requirements-analysis.txt) — principal analysis dependencies (not a tested, fully pinned environment); preprocessing and frustration extraction have additional tool-specific dependencies described in the scripts and reproducibility guide.
 - [`results/stage09_4F/all_feature_configurations_summary.csv`](results/stage09_4F/all_feature_configurations_summary.csv) — user-reported consolidated experimental metrics (rounded as originally displayed).
-- [`docs/publication_checklist.md`](docs/publication_checklist.md) — remaining source-data, environment, licensing and end-to-end reproducibility checks.
 
 ## Quick start
 
