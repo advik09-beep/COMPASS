@@ -1,0 +1,7 @@
+# Analysis-only environment, based on reviewed scripts; exact full environment not yet locked.
+numpy
+pandas
+scipy
+scikit-learn==1.7.2
+matplotlib
+joblib

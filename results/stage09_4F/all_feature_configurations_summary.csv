@@ -1,0 +1,9 @@
+model,n,mcc,balanced_accuracy,roc_auc,pr_auc
+structural_plus_mutational,181,0.5482,0.7706,0.833,0.7384
+structural_plus_configurational,181,0.5159,0.7567,0.8189,0.7602
+structural_plus_distribution,181,0.5159,0.7567,0.838,0.7476
+structural_plus_spatial,181,0.5126,0.7523,0.8229,0.7466
+structural_plus_reduced_mutational,181,0.5126,0.7523,0.8318,0.7635
+structural_core,181,0.5003,0.7454,0.8258,0.7523
+combined,181,0.4535,0.7225,0.8214,0.7368
+frustration_only,181,0.313,0.6595,0.6894,0.5987
