@@ -31,8 +31,6 @@ Effectively exact threshold:  >= 0.999999
 
 ## Important design rule
 
-A high correlation alone does not automatically remove a predictor.
-
 The script only auto-prunes:
 - exact/near-exact redundancies; or
 - extremely correlated variables within the same biological/measurement family.
