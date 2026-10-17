@@ -3,8 +3,6 @@
 Stage 07: Build MMseqs2 homology clusters, parse SCCS fold annotations,
 and generate audited group assignments for downstream cross-validation.
 
-This script does NOT train models.
-
 Inputs
 ------
 1. Frozen benchmark v1.0 CSV (contains accession, label, SCCS)
