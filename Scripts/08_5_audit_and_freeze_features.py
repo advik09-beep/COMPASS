@@ -11,8 +11,6 @@ This script:
 - exports final sequence, structural, and combined feature sets;
 - freezes Feature Set v2 with an audit table and checksums.
 
-No model is trained.
-
 Example:
     python3 scripts/08_5_audit_and_freeze_features.py \
       --benchmark data/frozen/benchmark_v1_0/benchmark_v1.0.csv \
