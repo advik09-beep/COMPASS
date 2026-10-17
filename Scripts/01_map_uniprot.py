@@ -10,8 +10,6 @@ The script:
 5. verifies the reported gene name,
 6. writes a clean identifier table and an audit report.
 
-No API key is required.
-
 Example:
     python 01_map_uniprot.py \
         --input "fujiwara_class_iv_proteins_only.csv" \
